@@ -1,0 +1,41 @@
+.inputBox{
+    background-color:white;
+    width:5%;
+    padding-bottom: 5%;
+    margin-left:1px;
+    margin-right:1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align:center;
+    font-size:large;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    }
+p{
+    font-weight: bolder;
+    font-size: 70em;
+
+}
+.rowHolder{
+    height:5%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrong{
+        color: skyblue;
+    background-color: grey;
+    transform: rotateX(360deg);transition-duration: 1s;
+}
+.wrongPos{
+    color: skyblue;
+    background-color: #f8f851;
+    transform: rotateX(360deg);transition-duration: 1s;
+}
+.correct{
+    color: skyblue;
+    background-color: green;
+    transform: rotateX(360deg);transition-duration: 1s;
+
+}
